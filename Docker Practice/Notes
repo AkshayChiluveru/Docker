@@ -1,0 +1,25 @@
+Containers are the fundamental building block of the Docker toolkit and that's one of the first things.
+
+how to start containers:
+how to manage different aspects of a container: start it, stop it, delete it, create it...
+
+And we're going to use Nginx for all that. Nginx is a really basic web server that is going to be easy for us to use just to learn the Docker commands and how to do Docker container stuff.
+
+Command: docker version
+    verified cli can talk to engine
+
+command: docker info
+    most config values of engine
+docker command line structure
+    old(still works): docker <command> (options)
+    new: docker <command> <sub command> (options)
+    
+
+Image vs container
+
+    - An Image is the application we want to run
+    - A Container is an instanve of that image running as a process
+    - You can have many containers running off the same image
+    - Our Image will be the Nginx web server
+    - Docker's default image 'registry' is called Docker hub (hub.docker.com)
+
