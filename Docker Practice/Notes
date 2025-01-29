@@ -23,4 +23,22 @@ Image vs container
     - Our Image will be the Nginx web server
     - Docker's default image 'registry' is called Docker hub (hub.docker.com)
 
-git info 
+
+
+To run a container we use the following command
+
+docker container run --publish 80:80 nginx  #localhost
+
+1. Downloaded image 'nginx' from docker hub
+2. Started a new container from the image
+3. Opened port 80 on the host IP
+4. Routes that traffic to the container IP, port 80 on the host
+
+
+docker container ls -- will show us the list of containers that are running.
+
+docker container run --publish 80:80 --detach nginx -- will be the Nginx web server that will be detached and will show us in the list of containers that are running
+
+If we need to stop the container: 
+
+docker container stop <containre id> -- will stop the container
