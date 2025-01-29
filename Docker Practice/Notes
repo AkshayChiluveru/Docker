@@ -23,3 +23,4 @@ Image vs container
     - Our Image will be the Nginx web server
     - Docker's default image 'registry' is called Docker hub (hub.docker.com)
 
+git info 
